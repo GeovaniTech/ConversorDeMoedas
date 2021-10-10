@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>805</width>
+    <width>821</width>
     <height>532</height>
    </rect>
   </property>
@@ -18,7 +18,7 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>805</width>
+    <width>821</width>
     <height>532</height>
    </size>
   </property>
@@ -26,7 +26,7 @@
    <string>Convert Coin - Conversor de Moeda</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../QRC/ConvQRC.qrc">
+   <iconset resource="../../../ConversorDeMoedas-main/View/QRC/ConvQRC.qrc">
     <normaloff>:/Icons and Images/Logo.png</normaloff>:/Icons and Images/Logo.png</iconset>
   </property>
   <property name="iconSize">
@@ -163,7 +163,7 @@ color: #A9ACF9;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../QRC/ConvQRC.qrc">:/Icons and Images/Porco.svg</pixmap>
+     <pixmap resource="../../../ConversorDeMoedas-main/View/QRC/ConvQRC.qrc">:/Icons and Images/Porco.svg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -257,7 +257,7 @@ color: rgb(162, 162, 162);</string>
   </widget>
  </widget>
  <resources>
-  <include location="../QRC/ConvQRC.qrc"/>
+  <include location="../../../ConversorDeMoedas-main/View/QRC/ConvQRC.qrc"/>
  </resources>
  <connections/>
 </ui>
