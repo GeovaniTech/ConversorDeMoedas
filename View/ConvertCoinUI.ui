@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConversorDeMoeda</class>
+ <widget class="QMainWindow" name="ConversorDeMoeda">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>532</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>805</width>
+    <height>532</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>805</width>
+    <height>532</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Convert Coin - Conversor de Moeda</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../Downloads/undraw_Savings_re_eq4w.ico</normaloff>../../../Downloads/undraw_Savings_re_eq4w.ico</iconset>
+  </property>
+  <widget class="QWidget" name="TelaConv">
+   <widget class="QLineEdit" name="line_valor">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>310</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0 , 0, 0);
+border: 2px solid rgba(0,0,0,0);
+border-bottom-color: #A9ACF9;
+color: rgb(0,0,0);
+padding-bottom: 8px;
+border-radius: 0px;
+font: 10pt &quot;Montserrat&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Valor</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="simbolo_inicial">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>370</y>
+      <width>71</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 50pt &quot;Corbel Light&quot;;
+color: #A9ACF9;</string>
+    </property>
+    <property name="text">
+     <string>R$</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_de">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>340</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 20pt &quot;Corbel Light&quot;;
+color: #A9ACF9;</string>
+    </property>
+    <property name="text">
+     <string>De</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_para">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>340</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 20pt &quot;Corbel Light&quot;;
+color: #A9ACF9;</string>
+    </property>
+    <property name="text">
+     <string>Para</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="conv_cambio">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>340</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="conv_inicial">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>340</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ImagenPorco">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>321</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="QRC/ConvQRC.qrc">:/Icons and Images/Porco.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_vale">
+    <property name="geometry">
+     <rect>
+      <x>345</x>
+      <y>410</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 25pt &quot;Corbel Light&quot;;
+color: #4DC724;</string>
+    </property>
+    <property name="text">
+     <string>Vale</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_valor_inicial">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>390</y>
+      <width>191</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 35pt &quot;Corbel Light&quot;;
+color: rgb(162, 162, 162);</string>
+    </property>
+    <property name="text">
+     <string>0,000000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_hoje">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>410</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 25pt &quot;Corbel Light&quot;;
+color: #4DC724;</string>
+    </property>
+    <property name="text">
+     <string>Hoje</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="simbolo_cambio">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>370</y>
+      <width>71</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 50pt &quot;Corbel Light&quot;;
+color: #A9ACF9;</string>
+    </property>
+    <property name="text">
+     <string>R$</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_valor_cambio">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>390</y>
+      <width>191</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 35pt &quot;Corbel Light&quot;;
+color: rgb(162, 162, 162);</string>
+    </property>
+    <property name="text">
+     <string>0,000000</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="QRC/ConvQRC.qrc"/>
+ </resources>
+ <connections/>
+</ui>
