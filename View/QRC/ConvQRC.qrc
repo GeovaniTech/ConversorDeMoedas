@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="Icons and Images">
+    <file>LogoIco.ico</file>
+    <file>Logo.png</file>
     <file>Porco.svg</file>
   </qresource>
 </RCC>
